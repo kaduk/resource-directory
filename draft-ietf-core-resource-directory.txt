@@ -135,12 +135,12 @@ Internet-Draft           CoRE Resource Directory               July 2020
    9.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .  46
      9.1.  Resource Types  . . . . . . . . . . . . . . . . . . . . .  46
      9.2.  IPv6 ND Resource Directory Address Option . . . . . . . .  46
-     9.3.  RD Parameter Registry . . . . . . . . . . . . . . . . . .  47
+     9.3.  RD Parameter Registry . . . . . . . . . . . . . . . . . .  46
        9.3.1.  Full description of the "Endpoint Type" Registration
                Parameter . . . . . . . . . . . . . . . . . . . . . .  49
      9.4.  "Endpoint Type" (et=) RD Parameter values . . . . . . . .  49
      9.5.  Multicast Address Registration  . . . . . . . . . . . . .  50
-     9.6.  Well-Kown URIs  . . . . . . . . . . . . . . . . . . . . .  50
+     9.6.  Well-Known URIs . . . . . . . . . . . . . . . . . . . . .  50
      9.7.  Service Names and Transport Protocol Port Number
            Registry  . . . . . . . . . . . . . . . . . . . . . . . .  50
    10. Examples  . . . . . . . . . . . . . . . . . . . . . . . . . .  51
@@ -2319,7 +2319,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
    Conversely, in applications where the RD does not check the endpoint
    name, the authorized registering endpoint can generate a random
    number (or string) that identifies the endpoint.  The RD should then
-   remeber unique properties of the registrant, associate them with the
+   remember unique properties of the registrant, associate them with the
    registration for as long as its registration resource is active
    (which may be longer than the registration's lifetime), and require
    the same properties for operations on the registration resource.
@@ -2412,7 +2412,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
    One example of this are multi-tenant deployments separated by the
    sector (d) parameter.  Some sectors might apply limitations on the
-   enpoint names available, while others use a random identifier
+   endpoint names available, while others use a random identifier
    approach to endpoint names and place limits on the entered links
    based on their attributes instead.
 
@@ -2453,7 +2453,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
    at the CoAP layer then it may be inclined to use the endpoint name
    for looking up what information to provision to the malicious device.
 
-   Endpoint authentication needs to be checked independenlty of whether
+   Endpoint authentication needs to be checked independently of whether
    there are configured requirements on the credentials for a given
    endpoint name (Section 7.1) or whether arbitrary names are accepted
    (Section 7.1.1).
@@ -2507,13 +2507,13 @@ Internet-Draft           CoRE Resource Directory               July 2020
    upcoming [I-D.ietf-core-echo-request-tag] updates that by describing
    a source address verification mechanism using the Echo option.
 
-   [ If this document is published together with or after I-D.ioetf-
-   core-echo-request-tag, the above paragraph is replaced with the
-   following:
+   [ If this document is published together with or after I-D.ietf-core-
+   echo-request-tag, the above paragraph is replaced with the following:
 
-
-
-
+   [RFC7252] describes this at length in its Section 11.3, and
+   [I-D.ietf-core-echo-request-tag] (which updates the former)
+   recommends using the Echo option to verify the request's source
+   address.
 
 
 
@@ -2521,11 +2521,6 @@ Shelby, et al.           Expires 14 January 2021               [Page 45]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
-
-   [RFC7252] describes this at length in its Section 11.3, and
-   [I-D.ietf-core-echo-request-tag] (which updates the former)
-   recommends using the Echo option to verify the request's source
-   address.
 
    ]
 
@@ -2565,19 +2560,6 @@ Internet-Draft           CoRE Resource Directory               July 2020
    [ The RFC editor is asked to replace TBD38 with the assigned number
    in the document; the value 38 is suggested. ]
 
-
-
-
-
-
-
-
-
-Shelby, et al.           Expires 14 January 2021               [Page 46]
-
-Internet-Draft           CoRE Resource Directory               July 2020
-
-
 9.3.  RD Parameter Registry
 
    This specification defines a new sub-registry for registration and
@@ -2587,6 +2569,14 @@ Internet-Draft           CoRE Resource Directory               July 2020
    define new ones.
 
    Each entry in the registry must include
+
+
+
+
+Shelby, et al.           Expires 14 January 2021               [Page 46]
+
+Internet-Draft           CoRE Resource Directory               July 2020
+
 
    *  the human readable name of the parameter,
 
@@ -2617,6 +2607,16 @@ Internet-Draft           CoRE Resource Directory               July 2020
    for keeping it confidential at the discovery step.)
 
    Initial entries in this sub-registry are as follows:
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2769,7 +2769,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
    [ The RFC editor is asked to replace MCD1 and MCD2 with the assigned
    addresses throughout the document. ]
 
-9.6.  Well-Kown URIs
+9.6.  Well-Known URIs
 
    IANA is asked to extend the reference for the "core" URI suffix in
    the "Well-Known URIs" registry to reference this document next to
@@ -2784,13 +2784,13 @@ Internet-Draft           CoRE Resource Directory               July 2020
       Directory accessed using CoAP"
 
    *  Service name "core-rd-dtls", Protocol: "udp", Description:
-      "Resource Directory accedded using CoAP over DTLS"
+      "Resource Directory accessed using CoAP over DTLS"
 
    *  Service name: "core-rd", Protocol: "tcp", Description: "Resource
       Directory accessed using CoAP over TCP"
 
    *  Service name "core-rd-tls", Protocol: "tcp", Description:
-      "Resource Directory accedded using CoAP over TLS"
+      "Resource Directory accessed using CoAP over TLS"
 
    All in common have this document as their reference.
 
@@ -3194,7 +3194,7 @@ Shelby, et al.           Expires 14 January 2021               [Page 57]
 Internet-Draft           CoRE Resource Directory               July 2020
 
 
-   The base uri is empty, the Object ID is 1, the instance ID is 0, the
+   The base URI is empty, the Object ID is 1, the instance ID is 0, the
    resource ID is 1, and the resource instance is "undefined".  This
    example URI points to internal resource 1, which represents the
    registration lifetime configured, in instance 0 of a type 1 object
@@ -3345,8 +3345,8 @@ Internet-Draft           CoRE Resource Directory               July 2020
       This addresses Russ' Genart review points on details in the text
       in a rather broad fashion.  That is because the discussion on the
       topic inside the WG showed that that text on security has been
-      driven more review-by-review than by the an architectural plan of
-      the authors and WG.
+      driven more review-by-review than by an architectural plan of the
+      authors and WG.
 
    *  Add concrete suggestions (twice as long as registrant number with
       retries, or UUIDs without) for random endpoint names
