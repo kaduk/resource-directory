@@ -5,13 +5,13 @@
 CoRE                                                           Z. Shelby
 Internet-Draft                                                       ARM
 Intended status: Standards Track                               M. Koster
-Expires: 14 January 2021                                     SmartThings
+Expires: 28 January 2021                                     SmartThings
                                                               C. Bormann
                                                  Universitaet Bremen TZI
                                                          P. van der Stok
                                                               consultant
                                                           C. Amsüss, Ed.
-                                                            13 July 2020
+                                                            27 July 2020
 
 
                         CoRE Resource Directory
@@ -53,7 +53,7 @@ Status of This Memo
 
 
 
-Shelby, et al.           Expires 14 January 2021                [Page 1]
+Shelby, et al.           Expires 28 January 2021                [Page 1]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -68,7 +68,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 14 January 2021.
+   This Internet-Draft will expire on 28 January 2021.
 
 Copyright Notice
 
@@ -109,7 +109,7 @@ Table of Contents
 
 
 
-Shelby, et al.           Expires 14 January 2021                [Page 2]
+Shelby, et al.           Expires 28 January 2021                [Page 2]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -165,7 +165,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021                [Page 3]
+Shelby, et al.           Expires 28 January 2021                [Page 3]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -221,7 +221,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021                [Page 4]
+Shelby, et al.           Expires 28 January 2021                [Page 4]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -277,7 +277,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021                [Page 5]
+Shelby, et al.           Expires 28 January 2021                [Page 5]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -333,7 +333,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021                [Page 6]
+Shelby, et al.           Expires 28 January 2021                [Page 6]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -389,7 +389,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021                [Page 7]
+Shelby, et al.           Expires 28 January 2021                [Page 7]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -445,7 +445,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021                [Page 8]
+Shelby, et al.           Expires 28 January 2021                [Page 8]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -501,7 +501,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021                [Page 9]
+Shelby, et al.           Expires 28 January 2021                [Page 9]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -557,7 +557,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 10]
+Shelby, et al.           Expires 28 January 2021               [Page 10]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -613,7 +613,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 11]
+Shelby, et al.           Expires 28 January 2021               [Page 11]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -669,7 +669,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 12]
+Shelby, et al.           Expires 28 January 2021               [Page 12]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -725,7 +725,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 13]
+Shelby, et al.           Expires 28 January 2021               [Page 13]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -781,7 +781,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 14]
+Shelby, et al.           Expires 28 January 2021               [Page 14]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -837,7 +837,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 15]
+Shelby, et al.           Expires 28 January 2021               [Page 15]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -893,7 +893,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 16]
+Shelby, et al.           Expires 28 January 2021               [Page 16]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -949,7 +949,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 17]
+Shelby, et al.           Expires 28 January 2021               [Page 17]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -1005,7 +1005,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 18]
+Shelby, et al.           Expires 28 January 2021               [Page 18]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -1061,7 +1061,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 19]
+Shelby, et al.           Expires 28 January 2021               [Page 19]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -1117,7 +1117,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 20]
+Shelby, et al.           Expires 28 January 2021               [Page 20]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -1173,7 +1173,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 21]
+Shelby, et al.           Expires 28 January 2021               [Page 21]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -1229,7 +1229,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 22]
+Shelby, et al.           Expires 28 January 2021               [Page 22]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -1285,7 +1285,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 23]
+Shelby, et al.           Expires 28 January 2021               [Page 23]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -1341,7 +1341,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 24]
+Shelby, et al.           Expires 28 January 2021               [Page 24]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -1397,7 +1397,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 25]
+Shelby, et al.           Expires 28 January 2021               [Page 25]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -1453,7 +1453,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 26]
+Shelby, et al.           Expires 28 January 2021               [Page 26]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -1509,7 +1509,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 27]
+Shelby, et al.           Expires 28 January 2021               [Page 27]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -1565,7 +1565,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 28]
+Shelby, et al.           Expires 28 January 2021               [Page 28]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -1621,7 +1621,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 29]
+Shelby, et al.           Expires 28 January 2021               [Page 29]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -1677,7 +1677,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 30]
+Shelby, et al.           Expires 28 January 2021               [Page 30]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -1733,7 +1733,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 31]
+Shelby, et al.           Expires 28 January 2021               [Page 31]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -1789,7 +1789,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 32]
+Shelby, et al.           Expires 28 January 2021               [Page 32]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -1845,7 +1845,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 33]
+Shelby, et al.           Expires 28 January 2021               [Page 33]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -1901,7 +1901,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 34]
+Shelby, et al.           Expires 28 January 2021               [Page 34]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -1957,7 +1957,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 35]
+Shelby, et al.           Expires 28 January 2021               [Page 35]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -2013,7 +2013,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 36]
+Shelby, et al.           Expires 28 January 2021               [Page 36]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -2069,7 +2069,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 37]
+Shelby, et al.           Expires 28 January 2021               [Page 37]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -2125,7 +2125,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 38]
+Shelby, et al.           Expires 28 January 2021               [Page 38]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -2181,7 +2181,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 39]
+Shelby, et al.           Expires 28 January 2021               [Page 39]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -2237,7 +2237,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 40]
+Shelby, et al.           Expires 28 January 2021               [Page 40]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -2293,7 +2293,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 41]
+Shelby, et al.           Expires 28 January 2021               [Page 41]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -2349,7 +2349,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 42]
+Shelby, et al.           Expires 28 January 2021               [Page 42]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -2405,7 +2405,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 43]
+Shelby, et al.           Expires 28 January 2021               [Page 43]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -2461,7 +2461,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 44]
+Shelby, et al.           Expires 28 January 2021               [Page 44]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -2517,7 +2517,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 45]
+Shelby, et al.           Expires 28 January 2021               [Page 45]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -2573,7 +2573,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 46]
+Shelby, et al.           Expires 28 January 2021               [Page 46]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -2629,7 +2629,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 47]
+Shelby, et al.           Expires 28 January 2021               [Page 47]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -2685,7 +2685,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 48]
+Shelby, et al.           Expires 28 January 2021               [Page 48]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -2741,7 +2741,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 49]
+Shelby, et al.           Expires 28 January 2021               [Page 49]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -2797,7 +2797,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 50]
+Shelby, et al.           Expires 28 January 2021               [Page 50]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -2853,7 +2853,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 51]
+Shelby, et al.           Expires 28 January 2021               [Page 51]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -2909,7 +2909,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 52]
+Shelby, et al.           Expires 28 January 2021               [Page 52]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -2965,7 +2965,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 53]
+Shelby, et al.           Expires 28 January 2021               [Page 53]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -3021,7 +3021,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 54]
+Shelby, et al.           Expires 28 January 2021               [Page 54]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -3077,7 +3077,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 55]
+Shelby, et al.           Expires 28 January 2021               [Page 55]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -3133,7 +3133,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 56]
+Shelby, et al.           Expires 28 January 2021               [Page 56]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -3189,7 +3189,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 57]
+Shelby, et al.           Expires 28 January 2021               [Page 57]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -3245,7 +3245,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 58]
+Shelby, et al.           Expires 28 January 2021               [Page 58]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -3301,7 +3301,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 59]
+Shelby, et al.           Expires 28 January 2021               [Page 59]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -3357,7 +3357,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 60]
+Shelby, et al.           Expires 28 January 2021               [Page 60]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -3413,7 +3413,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 61]
+Shelby, et al.           Expires 28 January 2021               [Page 61]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -3469,7 +3469,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 62]
+Shelby, et al.           Expires 28 January 2021               [Page 62]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -3525,7 +3525,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 63]
+Shelby, et al.           Expires 28 January 2021               [Page 63]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -3581,7 +3581,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 64]
+Shelby, et al.           Expires 28 January 2021               [Page 64]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -3637,7 +3637,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 65]
+Shelby, et al.           Expires 28 January 2021               [Page 65]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -3693,7 +3693,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 66]
+Shelby, et al.           Expires 28 January 2021               [Page 66]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -3749,7 +3749,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 67]
+Shelby, et al.           Expires 28 January 2021               [Page 67]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -3805,7 +3805,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 68]
+Shelby, et al.           Expires 28 January 2021               [Page 68]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -3861,7 +3861,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 69]
+Shelby, et al.           Expires 28 January 2021               [Page 69]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -3917,7 +3917,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 70]
+Shelby, et al.           Expires 28 January 2021               [Page 70]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -3973,7 +3973,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 71]
+Shelby, et al.           Expires 28 January 2021               [Page 71]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -4029,7 +4029,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 72]
+Shelby, et al.           Expires 28 January 2021               [Page 72]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -4037,9 +4037,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
    [I-D.ietf-core-echo-request-tag]
               Amsuess, C., Mattsson, J., and G. Selander, "CoAP: Echo,
               Request-Tag, and Token Processing", Work in Progress,
-              Internet-Draft, draft-ietf-core-echo-request-tag-09, 9
-              March 2020, <http://www.ietf.org/internet-drafts/draft-
-              ietf-core-echo-request-tag-09.txt>.
+              Internet-Draft, draft-ietf-core-echo-request-tag-10, 13
+              July 2020, <http://www.ietf.org/internet-drafts/draft-
+              ietf-core-echo-request-tag-10.txt>.
 
    [I-D.ietf-core-links-json]
               Li, K., Rahman, A., and C. Bormann, "Representing
@@ -4085,7 +4085,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 73]
+Shelby, et al.           Expires 28 January 2021               [Page 73]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -4141,7 +4141,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 74]
+Shelby, et al.           Expires 28 January 2021               [Page 74]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -4197,7 +4197,7 @@ Appendix A.  Groups Registration and Lookup
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 75]
+Shelby, et al.           Expires 28 January 2021               [Page 75]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -4253,7 +4253,7 @@ Appendix B.  Web links and the Resource Directory
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 76]
+Shelby, et al.           Expires 28 January 2021               [Page 76]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -4309,7 +4309,7 @@ B.1.1.  Resolving the URIs
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 77]
+Shelby, et al.           Expires 28 January 2021               [Page 77]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -4365,7 +4365,7 @@ B.2.  A slightly more complex example
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 78]
+Shelby, et al.           Expires 28 January 2021               [Page 78]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -4421,7 +4421,7 @@ B.3.  Enter the Resource Directory
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 79]
+Shelby, et al.           Expires 28 January 2021               [Page 79]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -4477,7 +4477,7 @@ B.4.  A note on differences between link-format and Link header fields
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 80]
+Shelby, et al.           Expires 28 January 2021               [Page 80]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -4533,7 +4533,7 @@ Appendix C.  Limited Link Format
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 81]
+Shelby, et al.           Expires 28 January 2021               [Page 81]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -4589,7 +4589,7 @@ Authors' Addresses
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 82]
+Shelby, et al.           Expires 28 January 2021               [Page 82]
 
 Internet-Draft           CoRE Resource Directory               July 2020
 
@@ -4645,4 +4645,4 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 14 January 2021               [Page 83]
+Shelby, et al.           Expires 28 January 2021               [Page 83]
