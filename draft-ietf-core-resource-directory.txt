@@ -132,10 +132,10 @@ Internet-Draft           CoRE Resource Directory             August 2020
      8.1.  Endpoint Identification and Authentication  . . . . . . .  44
      8.2.  Access Control  . . . . . . . . . . . . . . . . . . . . .  45
      8.3.  Denial of Service Attacks . . . . . . . . . . . . . . . .  45
-   9.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .  45
-     9.1.  Resource Types  . . . . . . . . . . . . . . . . . . . . .  45
+   9.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .  46
+     9.1.  Resource Types  . . . . . . . . . . . . . . . . . . . . .  46
      9.2.  IPv6 ND Resource Directory Address Option . . . . . . . .  46
-     9.3.  RD Parameter Registry . . . . . . . . . . . . . . . . . .  46
+     9.3.  RD Parameter Registry . . . . . . . . . . . . . . . . . .  47
        9.3.1.  Full description of the "Endpoint Type" Registration
                Parameter . . . . . . . . . . . . . . . . . . . . . .  49
      9.4.  "Endpoint Type" (et=) RD Parameter values . . . . . . . .  49
@@ -155,7 +155,7 @@ Internet-Draft           CoRE Resource Directory             August 2020
    11. Acknowledgments . . . . . . . . . . . . . . . . . . . . . . .  60
    12. Changelog . . . . . . . . . . . . . . . . . . . . . . . . . .  60
    13. References  . . . . . . . . . . . . . . . . . . . . . . . . .  71
-     13.1.  Normative References . . . . . . . . . . . . . . . . . .  71
+     13.1.  Normative References . . . . . . . . . . . . . . . . . .  72
      13.2.  Informative References . . . . . . . . . . . . . . . . .  72
    Appendix A.  Groups Registration and Lookup . . . . . . . . . . .  75
    Appendix B.  Web links and the Resource Directory . . . . . . . .  77
@@ -2426,8 +2426,12 @@ Internet-Draft           CoRE Resource Directory             August 2020
    The security considerations as described in Section 5 of [RFC8288]
    and Section 6 of [RFC6690] apply.  The "/.well-known/core" resource
    may be protected e.g. using DTLS when hosted on a CoAP server as
-   described in [RFC7252].  DTLS or TLS based security SHOULD be used on
-   all resource directory interfaces defined in this document.
+   described in [RFC7252].
+
+   Access that is limited or affects sensitive data SHOULD be protected,
+   e.g. using (D)TLS or OSCORE ([RFC8613]; which aspects of the RD this
+   affects depends on the security policies of the application (see
+   Section 7).
 
 8.1.  Endpoint Identification and Authentication
 
@@ -2453,10 +2457,6 @@ Internet-Draft           CoRE Resource Directory             August 2020
    at the CoAP layer then it may be inclined to use the endpoint name
    for looking up what information to provision to the malicious device.
 
-   Endpoint authentication needs to be checked independently of whether
-   there are configured requirements on the credentials for a given
-   endpoint name (Section 7.1) or whether arbitrary names are accepted
-   (Section 7.1.1).
 
 
 
@@ -2465,6 +2465,11 @@ Shelby, et al.          Expires 12 February 2021               [Page 44]
 
 Internet-Draft           CoRE Resource Directory             August 2020
 
+
+   Endpoint authentication needs to be checked independently of whether
+   there are configured requirements on the credentials for a given
+   endpoint name (Section 7.1) or whether arbitrary names are accepted
+   (Section 7.1.1).
 
    Simple registration could be used to circumvent address based access
    control: An attacker would send a simple registration request with
@@ -2481,12 +2486,41 @@ Internet-Draft           CoRE Resource Directory             August 2020
    level as possible.  For example access control for lookups could be
    performed either at the sector, endpoint or resource level.
 
+   The precise access controls necessary (and the consequences of
+   failure to enforce them) depend on the protection objectives of the
+   application and the security policies (Section 7) derived from them.
+
 8.3.  Denial of Service Attacks
 
    Services that run over UDP unprotected are vulnerable to unknowingly
-   amplify and distribute a DoS attack as UDP does not require return
-   routability check.  Since RD lookup responses can be significantly
-   larger than requests, RDs are prone to this.
+   become part of a DDoS attack as UDP does not require return
+   routability check.  Therefore, an attacker can easily spoof the
+   source IP of the target entity and send requests to such a service
+   which would then respond to the target entity.  This can be used for
+   large-scale DDoS attacks on the target.  Especially, if the service
+   returns a response that is order of magnitudes larger than the
+   request, the situation becomes even worse as now the attack can be
+   amplified.  DNS servers have been widely used for DDoS amplification
+   attacks.  There is also a danger that NTP Servers could become
+   implicated in denial-of-service (DoS) attacks since they run on
+   unprotected UDP, there is no return routability check, and they can
+   have a large amplification factor.  The responses from the NTP server
+   were found to be 19 times larger than the request.  An RD which
+   responds to wild-card lookups is potentially vulnerable if run with
+   CoAP over UDP.  Since there is no return routability check and the
+   responses can be significantly larger than requests, RDs can
+   unknowingly become part of a DDoS amplification attack.
+
+
+
+
+
+
+
+Shelby, et al.          Expires 12 February 2021               [Page 45]
+
+Internet-Draft           CoRE Resource Directory             August 2020
+
 
    [RFC7252] describes this at length in its Section 11.3, including
    some mitigation by using small block sizes in responses.  The
@@ -2510,17 +2544,6 @@ Internet-Draft           CoRE Resource Directory             August 2020
    IANA is asked to enter the following values into the Resource Type
    (rt=) Link Target Attribute Values sub-registry of the Constrained
    Restful Environments (CoRE) Parameters registry defined in [RFC6690]:
-
-
-
-
-
-
-
-Shelby, et al.          Expires 12 February 2021               [Page 45]
-
-Internet-Draft           CoRE Resource Directory             August 2020
-
 
     +====================+=============================+=============+
     | Value              | Description                 | Reference   |
@@ -2547,6 +2570,14 @@ Internet-Draft           CoRE Resource Directory             August 2020
 
    *  Resource Directory Address Option (TBD38)
 
+
+
+
+Shelby, et al.          Expires 12 February 2021               [Page 46]
+
+Internet-Draft           CoRE Resource Directory             August 2020
+
+
    [ The RFC editor is asked to replace TBD38 with the assigned number
    in the document; the value 38 is suggested. ]
 
@@ -2570,14 +2601,6 @@ Internet-Draft           CoRE Resource Directory             August 2020
 
    *  syntax and validity requirements if any,
 
-
-
-
-Shelby, et al.          Expires 12 February 2021               [Page 46]
-
-Internet-Draft           CoRE Resource Directory             August 2020
-
-
    *  a description,
 
    *  and a link to reference documentation.
@@ -2597,29 +2620,6 @@ Internet-Draft           CoRE Resource Directory             August 2020
    for keeping it confidential at the discovery step.)
 
    Initial entries in this sub-registry are as follows:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -3335,14 +3335,32 @@ Internet-Draft           CoRE Resource Directory             August 2020
 
    changes from -25 to -26
 
-   *  Security considerations: Shorten amplification mitigation by
-      removing the references to earlier cases of DDoS amplification,
-      and by removing redundancies between the problem introduction and
-      the description of how an RD could become part of the problem.
+   *  Security considerations:
+
+      -  List all current options for security layers usable with CoAP
+         (OSCORE was missing as the text predated RFC8613)
+
+      -  Relax the previous SHOULD on secure access to SHOULD where
+         protection is indicated by security policies (bringing the text
+         in line with the -25 changes)
+
+      -  Point out that failure to follow the security considerations
+         has implications depending on the protection objective
+         described with the security policies
 
    changes from -24 to -25
 
    *  Large rework of section 7 (Security policies)
+
+
+
+
+
+
+Shelby, et al.          Expires 12 February 2021               [Page 60]
+
+Internet-Draft           CoRE Resource Directory             August 2020
+
 
       Rather than prescribing which data in the RD _is_ authenticated
       (and how), it now describes what applications built on an RD _can_
@@ -3354,13 +3372,6 @@ Internet-Draft           CoRE Resource Directory             August 2020
       topic inside the WG showed that that text on security has been
       driven more review-by-review than by an architectural plan of the
       authors and WG.
-
-
-
-Shelby, et al.          Expires 12 February 2021               [Page 60]
-
-Internet-Draft           CoRE Resource Directory             August 2020
-
 
    *  Add concrete suggestions (twice as long as registrant number with
       retries, or UUIDs without) for random endpoint names
@@ -3399,6 +3410,14 @@ Internet-Draft           CoRE Resource Directory             August 2020
 
       -  Minor clarity fixes
 
+
+
+
+Shelby, et al.          Expires 12 February 2021               [Page 61]
+
+Internet-Draft           CoRE Resource Directory             August 2020
+
+
       -  Markup and layouting
 
    changes from -23 to -24
@@ -3410,13 +3429,6 @@ Internet-Draft           CoRE Resource Directory             August 2020
    *  References added
 
    *  IANA considerations
-
-
-
-Shelby, et al.          Expires 12 February 2021               [Page 61]
-
-Internet-Draft           CoRE Resource Directory             August 2020
-
 
       -  added about .well-known/core resource
 
@@ -3454,6 +3466,14 @@ Internet-Draft           CoRE Resource Directory             August 2020
 
       -  Typos and minor wording
 
+
+
+
+Shelby, et al.          Expires 12 February 2021               [Page 62]
+
+Internet-Draft           CoRE Resource Directory             August 2020
+
+
    changes from -20 to -21
 
    (Processing comments during WGLC)
@@ -3465,14 +3485,6 @@ Internet-Draft           CoRE Resource Directory             August 2020
 
    *  Recommend particular discovery mechanisms for some managed network
       scenarios
-
-
-
-
-Shelby, et al.          Expires 12 February 2021               [Page 62]
-
-Internet-Draft           CoRE Resource Directory             August 2020
-
 
    changes from -19 to -20
 
@@ -3511,6 +3523,13 @@ Internet-Draft           CoRE Resource Directory             August 2020
 
    *  Remove informative references to documents not mentioned any more
 
+
+
+Shelby, et al.          Expires 12 February 2021               [Page 63]
+
+Internet-Draft           CoRE Resource Directory             August 2020
+
+
    changes from -17 to -18
 
    *  Rather than re-specifying link format (Modernized Link Format),
@@ -3521,14 +3540,6 @@ Internet-Draft           CoRE Resource Directory             August 2020
 
    *  Move "Read endpoint links" operation to future specification like
       PATCH
-
-
-
-
-Shelby, et al.          Expires 12 February 2021               [Page 63]
-
-Internet-Draft           CoRE Resource Directory             August 2020
-
 
    *  Demote links-json to an informative reference, and removed them
       from exchange examples
@@ -3568,6 +3579,13 @@ Internet-Draft           CoRE Resource Directory             August 2020
 
    *  Update references from RFC5988 to its update RFC8288
 
+
+
+Shelby, et al.          Expires 12 February 2021               [Page 64]
+
+Internet-Draft           CoRE Resource Directory             August 2020
+
+
    *  Remove appendix on protocol-negotiation (which had a note to be
       removed before publication)
 
@@ -3578,13 +3596,6 @@ Internet-Draft           CoRE Resource Directory             August 2020
 
    *  Removed groups that are enumerations of registrations and have
       dedicated mechanism
-
-
-
-Shelby, et al.          Expires 12 February 2021               [Page 64]
-
-Internet-Draft           CoRE Resource Directory             August 2020
-
 
    *  Add groups that are enumerations of shared resources and are a
       special case of endpoint registrations
@@ -3624,6 +3635,13 @@ Internet-Draft           CoRE Resource Directory             August 2020
 
    changes from -13 to -14
 
+
+
+Shelby, et al.          Expires 12 February 2021               [Page 65]
+
+Internet-Draft           CoRE Resource Directory             August 2020
+
+
    *  Rename "registration context" to "registration base URI" (and
       "con" to "base") and "domain" to "sector" (where the abbreviation
       "d" stays for compatibility reasons)
@@ -3634,13 +3652,6 @@ Internet-Draft           CoRE Resource Directory             August 2020
       and group lookup
 
    *  Minor editorial changes
-
-
-
-Shelby, et al.          Expires 12 February 2021               [Page 65]
-
-Internet-Draft           CoRE Resource Directory             August 2020
-
 
       -  PATCH/iPATCH is clearly deferred to another document
 
@@ -3679,6 +3690,14 @@ Internet-Draft           CoRE Resource Directory             August 2020
 
    *  version identification
 
+
+
+
+Shelby, et al.          Expires 12 February 2021               [Page 66]
+
+Internet-Draft           CoRE Resource Directory             August 2020
+
+
    *  example rt= and et= values
 
    *  domain from figure 2
@@ -3690,13 +3709,6 @@ Internet-Draft           CoRE Resource Directory             August 2020
    *  resolve RFC6690-vs-8288 resolution ambiguities:
 
       -  require registered links not to be relative when using anchor
-
-
-
-Shelby, et al.          Expires 12 February 2021               [Page 66]
-
-Internet-Draft           CoRE Resource Directory             August 2020
-
 
       -  return absolute URIs in resource lookup
 
@@ -3734,6 +3746,14 @@ Internet-Draft           CoRE Resource Directory             August 2020
 
    *  enhanced IANA registry text
 
+
+
+
+Shelby, et al.          Expires 12 February 2021               [Page 67]
+
+Internet-Draft           CoRE Resource Directory             August 2020
+
+
    *  state that lookup resources can be observable
 
    *  More examples and improved text
@@ -3745,14 +3765,6 @@ Internet-Draft           CoRE Resource Directory             August 2020
    *  removed all text concerning DNS-SD.
 
    *  removed inconsistency in RDAO text.
-
-
-
-
-Shelby, et al.          Expires 12 February 2021               [Page 67]
-
-Internet-Draft           CoRE Resource Directory             August 2020
-
 
    *  suggestions taken over from various sources
 
@@ -3790,6 +3802,14 @@ Internet-Draft           CoRE Resource Directory             August 2020
 
    *  removed all superfluous client-server diagrams
 
+
+
+
+Shelby, et al.          Expires 12 February 2021               [Page 68]
+
+Internet-Draft           CoRE Resource Directory             August 2020
+
+
    *  simplified lighting example
 
    *  introduced Commissioning Tool
@@ -3802,13 +3822,6 @@ Internet-Draft           CoRE Resource Directory             August 2020
       to be exposed in the discovery link attributes
 
    *  editorial updates to section 9
-
-
-
-Shelby, et al.          Expires 12 February 2021               [Page 68]
-
-Internet-Draft           CoRE Resource Directory             August 2020
-
 
    *  update author information
 
@@ -3845,6 +3858,14 @@ Internet-Draft           CoRE Resource Directory             August 2020
 
    *  Expanded DNS-SD section
 
+
+
+
+Shelby, et al.          Expires 12 February 2021               [Page 69]
+
+Internet-Draft           CoRE Resource Directory             August 2020
+
+
    *  Added draft authors Peter van der Stok and Michael Koster
 
    Changes from -01 to -02:
@@ -3857,14 +3878,6 @@ Internet-Draft           CoRE Resource Directory             August 2020
    *  Additional examples section added for more complex use cases.
 
    *  New DNS-SD mapping section.
-
-
-
-
-Shelby, et al.          Expires 12 February 2021               [Page 69]
-
-Internet-Draft           CoRE Resource Directory             August 2020
-
 
    *  Added text on endpoint identification and authentication.
 
@@ -3901,6 +3914,14 @@ Internet-Draft           CoRE Resource Directory             August 2020
 
    *  Added group support.
 
+
+
+
+Shelby, et al.          Expires 12 February 2021               [Page 70]
+
+Internet-Draft           CoRE Resource Directory             August 2020
+
+
    *  Changed rt to et for the registration and update interface.
 
    Changes from -03 to -04:
@@ -3914,13 +3935,6 @@ Internet-Draft           CoRE Resource Directory             August 2020
    *  Fixed the use of ETags.
 
    *  Fixed tickets 383 and 372
-
-
-
-Shelby, et al.          Expires 12 February 2021               [Page 70]
-
-Internet-Draft           CoRE Resource Directory             August 2020
-
 
    Changes from -02 to -03:
 
@@ -3956,6 +3970,14 @@ Internet-Draft           CoRE Resource Directory             August 2020
 
 13.  References
 
+
+
+
+Shelby, et al.          Expires 12 February 2021               [Page 71]
+
+Internet-Draft           CoRE Resource Directory             August 2020
+
+
 13.1.  Normative References
 
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
@@ -3967,16 +3989,6 @@ Internet-Draft           CoRE Resource Directory             August 2020
               Resource Identifier (URI): Generic Syntax", STD 66,
               RFC 3986, DOI 10.17487/RFC3986, January 2005,
               <https://www.rfc-editor.org/info/rfc3986>.
-
-
-
-
-
-
-Shelby, et al.          Expires 12 February 2021               [Page 71]
-
-Internet-Draft           CoRE Resource Directory             August 2020
-
 
    [RFC6570]  Gregorio, J., Fielding, R., Hadley, M., Nottingham, M.,
               and D. Orchard, "URI Template", RFC 6570,
@@ -4014,18 +4026,6 @@ Internet-Draft           CoRE Resource Directory             August 2020
               2020, <http://www.ietf.org/internet-drafts/draft-bormann-
               t2trg-rel-impl-01.txt>.
 
-   [I-D.hartke-t2trg-coral]
-              Hartke, K., "The Constrained RESTful Application Language
-              (CoRAL)", Work in Progress, Internet-Draft, draft-hartke-
-              t2trg-coral-09, 8 July 2019, <http://www.ietf.org/
-              internet-drafts/draft-hartke-t2trg-coral-09.txt>.
-
-
-
-
-
-
-
 
 
 
@@ -4033,6 +4033,12 @@ Shelby, et al.          Expires 12 February 2021               [Page 72]
 
 Internet-Draft           CoRE Resource Directory             August 2020
 
+
+   [I-D.hartke-t2trg-coral]
+              Hartke, K., "The Constrained RESTful Application Language
+              (CoRAL)", Work in Progress, Internet-Draft, draft-hartke-
+              t2trg-coral-09, 8 July 2019, <http://www.ietf.org/
+              internet-drafts/draft-hartke-t2trg-coral-09.txt>.
 
    [I-D.ietf-ace-oauth-authz]
               Seitz, L., Selander, G., Wahlstroem, E., Erdtman, S., and
@@ -4076,12 +4082,6 @@ Internet-Draft           CoRE Resource Directory             August 2020
               Multicast Addresses", RFC 3306, DOI 10.17487/RFC3306,
               August 2002, <https://www.rfc-editor.org/info/rfc3306>.
 
-   [RFC3849]  Huston, G., Lord, A., and P. Smith, "IPv6 Address Prefix
-              Reserved for Documentation", RFC 3849,
-              DOI 10.17487/RFC3849, July 2004,
-              <https://www.rfc-editor.org/info/rfc3849>.
-
-
 
 
 
@@ -4089,6 +4089,11 @@ Shelby, et al.          Expires 12 February 2021               [Page 73]
 
 Internet-Draft           CoRE Resource Directory             August 2020
 
+
+   [RFC3849]  Huston, G., Lord, A., and P. Smith, "IPv6 Address Prefix
+              Reserved for Documentation", RFC 3849,
+              DOI 10.17487/RFC3849, July 2004,
+              <https://www.rfc-editor.org/info/rfc3849>.
 
    [RFC4122]  Leach, P., Mealling, M., and R. Salz, "A Universally
               Unique IDentifier (UUID) URN Namespace", RFC 4122,
@@ -4131,11 +4136,6 @@ Internet-Draft           CoRE Resource Directory             August 2020
               DOI 10.17487/RFC7252, June 2014,
               <https://www.rfc-editor.org/info/rfc7252>.
 
-   [RFC7390]  Rahman, A., Ed. and E. Dijk, Ed., "Group Communication for
-              the Constrained Application Protocol (CoAP)", RFC 7390,
-              DOI 10.17487/RFC7390, October 2014,
-              <https://www.rfc-editor.org/info/rfc7390>.
-
 
 
 
@@ -4145,6 +4145,11 @@ Shelby, et al.          Expires 12 February 2021               [Page 74]
 
 Internet-Draft           CoRE Resource Directory             August 2020
 
+
+   [RFC7390]  Rahman, A., Ed. and E. Dijk, Ed., "Group Communication for
+              the Constrained Application Protocol (CoAP)", RFC 7390,
+              DOI 10.17487/RFC7390, October 2014,
+              <https://www.rfc-editor.org/info/rfc7390>.
 
    [RFC7641]  Hartke, K., "Observing Resources in the Constrained
               Application Protocol (CoAP)", RFC 7641,
@@ -4164,6 +4169,11 @@ Internet-Draft           CoRE Resource Directory             August 2020
               DOI 10.17487/RFC8288, October 2017,
               <https://www.rfc-editor.org/info/rfc8288>.
 
+   [RFC8613]  Selander, G., Mattsson, J., Palombini, F., and L. Seitz,
+              "Object Security for Constrained RESTful Environments
+              (OSCORE)", RFC 8613, DOI 10.17487/RFC8613, July 2019,
+              <https://www.rfc-editor.org/info/rfc8613>.
+
 Appendix A.  Groups Registration and Lookup
 
    The RD-Groups usage pattern allows announcing application groups
@@ -4182,16 +4192,6 @@ Appendix A.  Groups Registration and Lookup
    the group.  Depending on the application, members that lack some
    resource MAY be permissible if requests to them fail gracefully.
 
-   The following example shows a CT registering a group with the name
-   "lights" which provides two resources.  The directory resource path
-   /rd is an example RD location discovered in a request similar to
-   Figure 5.  The group address in the example is constructed from
-   [RFC3849]'s reserved 2001:db8:: prefix as a unicast-prefix based
-   site-local address (see [RFC3306].
-
-
-
-
 
 
 
@@ -4201,6 +4201,13 @@ Shelby, et al.          Expires 12 February 2021               [Page 75]
 
 Internet-Draft           CoRE Resource Directory             August 2020
 
+
+   The following example shows a CT registering a group with the name
+   "lights" which provides two resources.  The directory resource path
+   /rd is an example RD location discovered in a request similar to
+   Figure 5.  The group address in the example is constructed from
+   [RFC3849]'s reserved 2001:db8:: prefix as a unicast-prefix based
+   site-local address (see [RFC3306].
 
    Req: POST coap://rd.example.com/rd?ep=lights&et=core.rd-group
                                      &base=coap://[ff35:30:2001:db8::1]
@@ -4242,13 +4249,6 @@ Internet-Draft           CoRE Resource Directory             August 2020
    The following example shows a client performing a lookup of all
    resources of all endpoints (groups) with et=core.rd-group.
 
-   Req: GET /rd-lookup/res?et=core.rd-group
-
-   <coap://[ff35:30:2001:db8::1]/light>;rt="light";if="core.a";
-        et="core.rd-group";anchor="coap://[ff35:30:2001:db8::1]",
-   <coap://[ff35:30:2001:db8::1]/color-temperature>;if="core.p";u="K";
-        et="core.rd-group";
-        anchor="coap://[ff35:30:2001:db8::1]"
 
 
 
@@ -4257,6 +4257,14 @@ Shelby, et al.          Expires 12 February 2021               [Page 76]
 
 Internet-Draft           CoRE Resource Directory             August 2020
 
+
+   Req: GET /rd-lookup/res?et=core.rd-group
+
+   <coap://[ff35:30:2001:db8::1]/light>;rt="light";if="core.a";
+        et="core.rd-group";anchor="coap://[ff35:30:2001:db8::1]",
+   <coap://[ff35:30:2001:db8::1]/color-temperature>;if="core.p";u="K";
+        et="core.rd-group";
+        anchor="coap://[ff35:30:2001:db8::1]"
 
             Figure 29: Example lookup of resources inside groups
 
@@ -4296,14 +4304,6 @@ B.1.  A simple example
 
    where the response is sent by the server, "[2001:db8:f0::1]:5683".
 
-   While the client - on the practical or implementation side - can just
-   go ahead and create a new request to "[2001:db8:f0::1]:5683" with
-   Uri-Path: "temp", the full resolution steps for insertion into and
-   retrieval from the RD without any shortcuts are:
-
-
-
-
 
 
 
@@ -4313,6 +4313,11 @@ Shelby, et al.          Expires 12 February 2021               [Page 77]
 
 Internet-Draft           CoRE Resource Directory             August 2020
 
+
+   While the client - on the practical or implementation side - can just
+   go ahead and create a new request to "[2001:db8:f0::1]:5683" with
+   Uri-Path: "temp", the full resolution steps for insertion into and
+   retrieval from the RD without any shortcuts are:
 
 B.1.1.  Resolving the URIs
 
@@ -4356,11 +4361,6 @@ B.2.  A slightly more complex example
 
    Omitting the "rt=temperature" filter, the discovery query would have
    given some more records in the payload:
-
-
-
-
-
 
 
 
