@@ -2304,8 +2304,8 @@ Internet-Draft           CoRE Resource Directory             August 2020
    endpoint lookup, or resource lookup with filtering on the endpoint
    name, the RD must ensure that the registrant is authorized to use the
    given endpoint name.  This applies both to registration and later to
-   operations on the registration resource.  It is immaterial there
-   whether the client is the registrant-ep itself or a CT is doing the
+   operations on the registration resource.  It is immaterial whether
+   the client is the registrant-ep itself or a CT is doing the
    registration: The RD can not tell the difference, and CTs may use
    authorization credentials authorizing only operations on that
    particular endpoint name, or a wider range of endpoint names.
@@ -2466,7 +2466,7 @@ Shelby, et al.          Expires 12 February 2021               [Page 44]
 Internet-Draft           CoRE Resource Directory             August 2020
 
 
-   Simple registration could be used to circumvent address based access
+   Simple registration could be used to circumvent address-based access
    control: An attacker would send a simple registration request with
    the victim's address as source address, and later look up the
    victim's .well-known/core content in the RD.  Mitigation for this is
