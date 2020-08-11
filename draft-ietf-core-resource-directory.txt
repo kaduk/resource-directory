@@ -5,13 +5,13 @@
 CoRE                                                           Z. Shelby
 Internet-Draft                                                       ARM
 Intended status: Standards Track                               M. Koster
-Expires: 28 January 2021                                     SmartThings
+Expires: 12 February 2021                                    SmartThings
                                                               C. Bormann
                                                  Universitaet Bremen TZI
                                                          P. van der Stok
                                                               consultant
                                                           C. Amsüss, Ed.
-                                                            27 July 2020
+                                                          11 August 2020
 
 
                         CoRE Resource Directory
@@ -53,9 +53,9 @@ Status of This Memo
 
 
 
-Shelby, et al.           Expires 28 January 2021                [Page 1]
+Shelby, et al.          Expires 12 February 2021                [Page 1]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    Internet-Drafts are working documents of the Internet Engineering
@@ -68,7 +68,7 @@ Internet-Draft           CoRE Resource Directory               July 2020
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 28 January 2021.
+   This Internet-Draft will expire on 12 February 2021.
 
 Copyright Notice
 
@@ -109,9 +109,9 @@ Table of Contents
 
 
 
-Shelby, et al.           Expires 28 January 2021                [Page 2]
+Shelby, et al.          Expires 12 February 2021                [Page 2]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
        5.3.1.  Registration Update . . . . . . . . . . . . . . . . .  30
@@ -165,9 +165,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021                [Page 3]
+Shelby, et al.          Expires 12 February 2021                [Page 3]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
      B.2.  A slightly more complex example . . . . . . . . . . . . .  78
@@ -221,9 +221,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021                [Page 4]
+Shelby, et al.          Expires 12 February 2021                [Page 4]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    The term "byte" is used in its now customary sense as a synonym for
@@ -277,9 +277,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021                [Page 5]
+Shelby, et al.          Expires 12 February 2021                [Page 5]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    Target
@@ -333,9 +333,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021                [Page 6]
+Shelby, et al.          Expires 12 February 2021                [Page 6]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
 3.1.  Principles
@@ -389,9 +389,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021                [Page 7]
+Shelby, et al.          Expires 12 February 2021                [Page 7]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    A lookup interface for discovering any of the Web Links stored in the
@@ -445,9 +445,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021                [Page 8]
+Shelby, et al.          Expires 12 February 2021                [Page 8]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
                        +----------------------+
@@ -501,9 +501,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021                [Page 9]
+Shelby, et al.          Expires 12 February 2021                [Page 9]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    *  A link context URI: It defines the source of the relation, e.g.
@@ -557,9 +557,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 10]
+Shelby, et al.          Expires 12 February 2021               [Page 10]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
                     +--------------+
@@ -613,9 +613,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 11]
+Shelby, et al.          Expires 12 February 2021               [Page 11]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    A registration is associated with one endpoint.  A registration
@@ -669,9 +669,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 12]
+Shelby, et al.          Expires 12 February 2021               [Page 12]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    can enable utilization of machines in different applications
@@ -725,9 +725,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 13]
+Shelby, et al.          Expires 12 February 2021               [Page 13]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
 3.7.  Use Case: Link Catalogues
@@ -781,9 +781,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 14]
+Shelby, et al.          Expires 12 February 2021               [Page 14]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    For several operations, interface templates are given in list form;
@@ -837,9 +837,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 15]
+Shelby, et al.          Expires 12 February 2021               [Page 15]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    2.  It may be configured with a DNS name for the RD and use DNS to
@@ -893,9 +893,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 16]
+Shelby, et al.          Expires 12 February 2021               [Page 16]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    As some of the RD addresses obtained by the methods listed here are
@@ -949,9 +949,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 17]
+Shelby, et al.          Expires 12 February 2021               [Page 17]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    0                   1                   2                   3
@@ -1005,9 +1005,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 18]
+Shelby, et al.          Expires 12 February 2021               [Page 18]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
 4.1.2.  Using DNS-SD to discover a Resource Directory
@@ -1061,9 +1061,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 19]
+Shelby, et al.          Expires 12 February 2021               [Page 19]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    When performing multicast discovery, the multicast IP address used
@@ -1117,9 +1117,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 20]
+Shelby, et al.          Expires 12 February 2021               [Page 20]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    The following example shows an endpoint discovering an RD using this
@@ -1173,9 +1173,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 21]
+Shelby, et al.          Expires 12 February 2021               [Page 21]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    Req: GET /.well-known/core?rel=impl-info
@@ -1229,9 +1229,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 22]
+Shelby, et al.          Expires 12 February 2021               [Page 22]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    The posted link-format document can (and typically does) contain
@@ -1285,9 +1285,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 23]
+Shelby, et al.          Expires 12 February 2021               [Page 23]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
          registration in seconds.  Range of 1-4294967295.  If no
@@ -1341,9 +1341,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 24]
+Shelby, et al.          Expires 12 February 2021               [Page 24]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
          attributes (optional).  The endpoint can pass any parameter
@@ -1397,9 +1397,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 25]
+Shelby, et al.          Expires 12 February 2021               [Page 25]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    Req: POST coap://rd.example.com/rd?ep=node1
@@ -1453,9 +1453,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 26]
+Shelby, et al.          Expires 12 February 2021               [Page 26]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    *  The registrant-ep sends (and regularly refreshes with) a POST
@@ -1509,9 +1509,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 27]
+Shelby, et al.          Expires 12 February 2021               [Page 27]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    occupied by their own request to serve the RD's GET, and retry later
@@ -1565,9 +1565,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 28]
+Shelby, et al.          Expires 12 February 2021               [Page 28]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    The RD MUST delete registrations created by simple registration after
@@ -1621,9 +1621,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 29]
+Shelby, et al.          Expires 12 February 2021               [Page 29]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    The Registration Resource may also be used cancel the registration
@@ -1677,9 +1677,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 30]
+Shelby, et al.          Expires 12 February 2021               [Page 30]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
          registration in seconds.  Range of 1-4294967295.  If no
@@ -1733,9 +1733,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 31]
+Shelby, et al.          Expires 12 February 2021               [Page 31]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    The following example shows how the registering endpoint updates its
@@ -1789,9 +1789,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 32]
+Shelby, et al.          Expires 12 February 2021               [Page 32]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    Req: GET /rd-lookup/res?ep=endpoint1
@@ -1845,9 +1845,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 33]
+Shelby, et al.          Expires 12 February 2021               [Page 33]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
 5.3.3.  Further operations
@@ -1901,9 +1901,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 34]
+Shelby, et al.          Expires 12 February 2021               [Page 34]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
 6.1.  Resource lookup
@@ -1957,9 +1957,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 35]
+Shelby, et al.          Expires 12 February 2021               [Page 35]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    A link matches a search criterion if it has an attribute of the same
@@ -2013,9 +2013,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 36]
+Shelby, et al.          Expires 12 February 2021               [Page 36]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
          The search criteria are an associative array, expressed in a
@@ -2069,9 +2069,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 37]
+Shelby, et al.          Expires 12 February 2021               [Page 37]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    Req: GET /rd-lookup/res?rt=light
@@ -2125,9 +2125,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 38]
+Shelby, et al.          Expires 12 February 2021               [Page 38]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    Req: GET /rd-lookup/res?page=0&count=5
@@ -2181,9 +2181,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 39]
+Shelby, et al.          Expires 12 February 2021               [Page 39]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    Req: GET /rd-lookup/res?et=oic.d.sensor
@@ -2237,9 +2237,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 40]
+Shelby, et al.          Expires 12 February 2021               [Page 40]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    While Endpoint Lookup does expose the registration resources, the RD
@@ -2293,9 +2293,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 41]
+Shelby, et al.          Expires 12 February 2021               [Page 41]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
 7.1.  Endpoint name
@@ -2349,9 +2349,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 42]
+Shelby, et al.          Expires 12 February 2021               [Page 42]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    Note that the impact of having undesirable links in the RD depends on
@@ -2405,9 +2405,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 43]
+Shelby, et al.          Expires 12 February 2021               [Page 43]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    One example of this are multi-tenant deployments separated by the
@@ -2461,9 +2461,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 44]
+Shelby, et al.          Expires 12 February 2021               [Page 44]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    Simple registration could be used to circumvent address based access
@@ -2517,9 +2517,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 45]
+Shelby, et al.          Expires 12 February 2021               [Page 45]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    ]
@@ -2573,9 +2573,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 46]
+Shelby, et al.          Expires 12 February 2021               [Page 46]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    *  the human readable name of the parameter,
@@ -2629,9 +2629,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 47]
+Shelby, et al.          Expires 12 February 2021               [Page 47]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
     +==============+=======+==============+=====+=====================+
@@ -2685,9 +2685,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 48]
+Shelby, et al.          Expires 12 February 2021               [Page 48]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    example, "if" could be used as a parameter for conditional
@@ -2741,9 +2741,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 49]
+Shelby, et al.          Expires 12 February 2021               [Page 49]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    *  "core.rd-group": An application group as described in Appendix A.
@@ -2797,9 +2797,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 50]
+Shelby, et al.          Expires 12 February 2021               [Page 50]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
 10.  Examples
@@ -2853,9 +2853,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 51]
+Shelby, et al.          Expires 12 February 2021               [Page 51]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    At the moment of installation, the network under installation is not
@@ -2909,9 +2909,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 52]
+Shelby, et al.          Expires 12 February 2021               [Page 52]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
      +===========+==================+===============+===============+
@@ -2965,9 +2965,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 53]
+Shelby, et al.          Expires 12 February 2021               [Page 53]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    Req: POST coap://[2001:db8:4::ff]/rd
@@ -3021,9 +3021,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 54]
+Shelby, et al.          Expires 12 February 2021               [Page 54]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    Req: POST coap://[2001:db8:4::ff]/rd
@@ -3077,9 +3077,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 55]
+Shelby, et al.          Expires 12 February 2021               [Page 55]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    Dependent on the situation, only the address, "a", or the name, "n",
@@ -3133,9 +3133,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 56]
+Shelby, et al.          Expires 12 February 2021               [Page 56]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    Device Management object that represents a network connection,
@@ -3189,9 +3189,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 57]
+Shelby, et al.          Expires 12 February 2021               [Page 57]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    The base URI is empty, the Object ID is 1, the instance ID is 0, the
@@ -3245,9 +3245,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 58]
+Shelby, et al.          Expires 12 February 2021               [Page 58]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
      +=========+=======+===============================+=============+
@@ -3301,9 +3301,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 59]
+Shelby, et al.          Expires 12 February 2021               [Page 59]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    lt - Registration Lifetime
@@ -3357,9 +3357,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 60]
+Shelby, et al.          Expires 12 February 2021               [Page 60]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    *  Reference existing and upcoming specifications for DDOS mitigation
@@ -3413,9 +3413,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 61]
+Shelby, et al.          Expires 12 February 2021               [Page 61]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
       -  added "reference" field to endpoint type registry
@@ -3469,9 +3469,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 62]
+Shelby, et al.          Expires 12 February 2021               [Page 62]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    *  Express requirements on NAT situations in more abstract terms
@@ -3525,9 +3525,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 63]
+Shelby, et al.          Expires 12 February 2021               [Page 63]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    *  Reshuffling of sections: Move additional operations and endpoint
@@ -3581,9 +3581,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 64]
+Shelby, et al.          Expires 12 February 2021               [Page 64]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    *  Recommend a common set of resources for members of a group
@@ -3637,9 +3637,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 65]
+Shelby, et al.          Expires 12 February 2021               [Page 65]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
       -  Interface description lists are described as illustrative
@@ -3693,9 +3693,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 66]
+Shelby, et al.          Expires 12 February 2021               [Page 66]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    *  added Content Model section, including ER diagram
@@ -3749,9 +3749,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 67]
+Shelby, et al.          Expires 12 February 2021               [Page 67]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    *  moved simple registration to registration section
@@ -3805,9 +3805,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 68]
+Shelby, et al.          Expires 12 February 2021               [Page 68]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    Changes from -05 to -06
@@ -3861,9 +3861,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 69]
+Shelby, et al.          Expires 12 February 2021               [Page 69]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    *  Made 63 bytes a SHOULD rather than a MUST for endpoint name and
@@ -3917,9 +3917,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 70]
+Shelby, et al.          Expires 12 February 2021               [Page 70]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    *  Changed the endpoint name back to a single registration parameter
@@ -3973,9 +3973,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 71]
+Shelby, et al.          Expires 12 February 2021               [Page 71]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    [RFC6690]  Shelby, Z., "Constrained RESTful Environments (CoRE) Link
@@ -4029,9 +4029,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 72]
+Shelby, et al.          Expires 12 February 2021               [Page 72]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    [I-D.ietf-core-echo-request-tag]
@@ -4085,9 +4085,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 73]
+Shelby, et al.          Expires 12 February 2021               [Page 73]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    [RFC5771]  Cotton, M., Vegoda, L., and D. Meyer, "IANA Guidelines for
@@ -4141,9 +4141,9 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 74]
+Shelby, et al.          Expires 12 February 2021               [Page 74]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    [RFC8141]  Saint-Andre, P. and J. Klensin, "Uniform Resource Names
@@ -4197,9 +4197,9 @@ Appendix A.  Groups Registration and Lookup
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 75]
+Shelby, et al.          Expires 12 February 2021               [Page 75]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    contained a single resource that sets brightness and color
@@ -4253,9 +4253,9 @@ Appendix B.  Web links and the Resource Directory
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 76]
+Shelby, et al.          Expires 12 February 2021               [Page 76]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    The explanation of the steps makes some shortcuts in the more
@@ -4309,9 +4309,9 @@ B.1.1.  Resolving the URIs
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 77]
+Shelby, et al.          Expires 12 February 2021               [Page 77]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
 B.1.2.  Interpreting attributes and relations
@@ -4365,9 +4365,9 @@ B.2.  A slightly more complex example
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 78]
+Shelby, et al.          Expires 12 February 2021               [Page 78]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    Following the same resolution steps, the fourth record can be read as
@@ -4421,9 +4421,9 @@ B.3.  Enter the Resource Directory
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 79]
+Shelby, et al.          Expires 12 February 2021               [Page 79]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    (The difference is whether "/" or "/.well-known/core" hosts the
@@ -4477,9 +4477,9 @@ B.4.  A note on differences between link-format and Link header fields
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 80]
+Shelby, et al.          Expires 12 February 2021               [Page 80]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
       falling back to the resource's URI with paths stripped off (its
@@ -4533,9 +4533,9 @@ Appendix C.  Limited Link Format
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 81]
+Shelby, et al.          Expires 12 February 2021               [Page 81]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    It is applicable to representations in the application/link-format
@@ -4589,9 +4589,9 @@ Authors' Addresses
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 82]
+Shelby, et al.          Expires 12 February 2021               [Page 82]
 
-Internet-Draft           CoRE Resource Directory               July 2020
+Internet-Draft           CoRE Resource Directory             August 2020
 
 
    Email: cabo@tzi.org
@@ -4645,4 +4645,4 @@ Internet-Draft           CoRE Resource Directory               July 2020
 
 
 
-Shelby, et al.           Expires 28 January 2021               [Page 83]
+Shelby, et al.          Expires 12 February 2021               [Page 83]
